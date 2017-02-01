@@ -1,0 +1,72 @@
+http://www.json-generator.com/
+
+Summary List
+----------------------------------------------------
+
+[
+  '{{repeat(1, 20)}}',
+  {
+  reportId:    '{{guid()}}{{objectId()}}',
+  reportName:  '{{lorem(3, "words")}}',
+  reportStart: '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+  reportEnd:   '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+  property1:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+  property2:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+  comments:    '{{lorem(1, "paragraphs ")}}'
+  }
+]
+
+Details
+----------------------------------------------------
+
+[
+  {
+    reportRunId:         '{{guid()}}{{objectId()}}',
+    reportName:  '{{lorem(3, "words")}}',
+    reportStart: '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+    reportEnd:   '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+    property1:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+    property2:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+    reportSteps : [
+        {
+            name:           '{{lorem(3, "words")}}',
+            property1:      '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+            property2:      '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+            timestampStart: '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+            timestampEnd:   '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}'
+        },
+        {
+            name:           '{{lorem(3, "words")}}',
+            property1:      '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+            property2:      '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+            timestampStart: '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+            timestampEnd:   '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}',
+            result: '{{lorem(3, "words")}}',
+            subSteps : [
+                '{{repeat(0, 20)}}',
+                {
+                    referenceImgage: '{{guid()}}{{objectId()}}',
+                    imgageToCompare: '{{guid()}}{{objectId()}}',
+                    subStepType:     '{{random("steptype1","steptype1","steptype2","steptype3","steptype4","steptype5","steptypeX")}}',
+                    result:          '{{lorem(3, "words")}}',
+                    timestamp:       '{{date( new Date(2016, 0, 1), new Date(), "ISODateTimeTZ" )}}'
+                }
+            ]
+        }
+    ]
+  }
+]
+
+Trigger
+----------------------------------------------------
+
+
+[
+  '{{repeat(1, 100)}}',
+  {
+  reportName:  '{{lorem(3, "words")}}',
+  property1:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+  property2:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}',
+  property2:   '{{lorem(1, "words")}}{{lorem(1, "words")}}{{lorem(1, "words")}}'
+  }
+]

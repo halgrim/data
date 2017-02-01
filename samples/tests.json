@@ -1,0 +1,9 @@
+[
+  {
+    "testStep": "TESTSTART",
+    "testName": "pl.uitests.ItemPriceShouldMatchThePriceFromBasket",
+    "testRunID": "9a13abb4-13f2-4327-b532-27e5c28c178b5523139578",
+    "timestamp": "2017-01-27T14:18:59.622+01:00",
+    "browserType": "chrome 55.0.2883.95 "
+  }
+]

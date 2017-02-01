@@ -1,0 +1,300 @@
+{
+  "reportName": "nLEwjqTByckCubTFAEMwlErnAIaTByLlBRqRKhaLWdXGdCSyaZMiUBhdcwbM",
+  "property1": "property 6",
+  "property2": "other property 2",
+  "timestampStart": "2017-01-24T07:56:57.933+01:00",
+  "timestampEnd": "2017-01-02T22:55:13.761+01:00",
+  "reportId": "cb4521ca-455a-4ba4-a45b-1e81e5a6d35c",
+  "reportSteps": [
+    {
+      "stepName": "njtXygurcyEDYQtwMHqGnDsjhmPlTPoMbVFPpnHsXLtpIUFGtXtAkdBeyoqR",
+      "stepType": "Step type 1",
+      "timestampStart": "2017-01-05T10:03:59.479+01:00",
+      "timestampEnd": "2017-01-22T19:00:56.081+01:00",
+      "stepResult": "nVjomtXDfeutSSXxJCTcGAZuDXSOFz",
+      "subSteps": [
+        {
+          "subStepType": "type 2",
+          "timestamp": "2017-01-04T05:30:38.443+01:00",
+          "subStepResult": "ZoGikFwGRuYzjdmrBFoBVAwnLHXYNz",
+          "imageReferenceUrl": "dffed078-206f-49dd-9bfe-b6ae0eb5f840",
+          "imageToCompare": "def014f5-50b7-4062-8ea4-af3ba107c404"
+        },
+        {
+          "subStepType": "type 11",
+          "timestamp": "2017-01-17T19:50:21.220+01:00",
+          "subStepResult": "AYPewaCMVwCIGIIJKgsVRXBLOkKtcw",
+          "imageReferenceUrl": "c581a42f-ae51-49fd-9e93-5fb9c85bdc35",
+          "imageToCompare": "4097a9b4-eb3c-485b-a172-9221182d9f38"
+        },
+        {
+          "subStepType": "type 8",
+          "timestamp": "2017-01-21T03:16:53.156+01:00",
+          "subStepResult": "DSnziAdPfYBzbyitwcTITLkTirywWA",
+          "imageReferenceUrl": "abfdef3e-4eed-45ae-8b92-0a0306316d2c",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 8",
+          "timestamp": "2017-01-31T19:49:31.724+01:00",
+          "subStepResult": "dacTTzhMkgzErFnhAcNegEOqDDKJgX",
+          "imageReferenceUrl": "c446abd0-1b5c-41c5-822f-717af0a11079",
+          "imageToCompare": "b67a8a70-c71b-432b-8147-8d622d3bdc53"
+        },
+        {
+          "subStepType": "type 2",
+          "timestamp": "2017-01-27T10:58:17.973+01:00",
+          "subStepResult": "mFyaUpuqeVgcQzbwSlYLFeNtxbXbqA",
+          "imageReferenceUrl": "0382caea-4b47-441d-a489-70b8ab3c69d1",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 10",
+          "timestamp": "2017-01-13T07:26:54.942+01:00",
+          "subStepResult": "jFyMYJyhhmLhZfrZNWiQZykQKSocqF",
+          "imageReferenceUrl": "fd7db566-f1a5-414a-9537-5c5aa4a834ab",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 10",
+          "timestamp": "2017-01-26T08:17:31.061+01:00",
+          "subStepResult": "gsKDtgkktLElQAWVdZwxYVdsWLWJlZ",
+          "imageReferenceUrl": "6d64516f-83e3-4ac2-ba8b-0936a6411b81",
+          "imageToCompare": "62d6a903-503d-4c3f-b79e-4dccda9c364b"
+        },
+        {
+          "subStepType": "type 1",
+          "timestamp": "2017-01-28T16:24:01.207+01:00",
+          "subStepResult": "jXbjNNuftRUwttidksQmsqihWxPHLZ",
+          "imageReferenceUrl": "46119ad6-1eee-49c1-a46f-a03dd021196a",
+          "imageToCompare": "8cb98d88-af91-4476-ae8a-2078a0ba8515"
+        },
+        {
+          "subStepType": "type 8",
+          "timestamp": "2017-01-05T13:13:43.437+01:00",
+          "subStepResult": "qIiUZDcuIPRCapUDlPKjITuUCEMlxV",
+          "imageReferenceUrl": "5ce16188-f031-4a3a-95fa-22bfbd69d5ca",
+          "imageToCompare": "bcdffa55-6ece-495a-82d7-9eae15208908"
+        },
+        {
+          "subStepType": "type 4",
+          "timestamp": "2017-01-24T22:30:22.743+01:00",
+          "subStepResult": "cruLfjNXHwJOdaWdHNAyQxzFUVRnHk",
+          "imageReferenceUrl": "7326b4f1-37a5-4a54-95f3-b4f1ca9dbe27",
+          "imageToCompare": "483a6a21-2922-4ec2-81ed-b3f924241e3d"
+        }
+      ]
+    },
+    {
+      "stepName": "cYcEMzQIdLRFLPBNptlRTmRZHXKlUPRkEJByYcWimiojrHQfbnxeMkvyZkiR",
+      "stepType": "Step type 1",
+      "timestampStart": "2017-01-26T23:50:48.968+01:00",
+      "timestampEnd": "2017-01-29T16:18:44.439+01:00",
+      "stepResult": "hFlwSWvMpaprVUFZwasAWUAqjUCoVH",
+      "subSteps": [
+        {
+          "subStepType": "type 10",
+          "timestamp": "2017-01-23T04:56:38.716+01:00",
+          "subStepResult": "EoTWoVBJURvCoGUQXSETNrfUvYudRw",
+          "imageReferenceUrl": "7d123b64-70cd-43aa-927b-34f66ce94a8e",
+          "imageToCompare": "dea83b51-5400-4810-a732-994336b2b0df"
+        },
+        {
+          "subStepType": "type 8",
+          "timestamp": "2017-01-15T00:45:40.704+01:00",
+          "subStepResult": "dVjmwEMhtytlLsMFbQbrfFJdGEoSGn",
+          "imageReferenceUrl": "eee25cd1-6a75-4683-b161-b1f1cda4b8ca",
+          "imageToCompare": "5714c1e2-a0ea-4970-a4fe-81802cfd5ccc"
+        },
+        {
+          "subStepType": "type 4",
+          "timestamp": "2017-01-27T08:30:52.800+01:00",
+          "subStepResult": "gwoyhoaEMRpCnNusQwKpIUbEpLcKya",
+          "imageReferenceUrl": "d0813dda-eacf-4e5f-82ca-482861a2f7e2",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 2",
+          "timestamp": "2017-01-24T21:31:48.530+01:00",
+          "subStepResult": "XWsRhTIxvCkTVYLfJHlhVAcFNkBYHg",
+          "imageReferenceUrl": "43a94446-4575-4785-a9f3-788bd01ff593",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 4",
+          "timestamp": "2017-01-15T10:40:43.786+01:00",
+          "subStepResult": "njXJCQqEnFOwBFQcmFckhOzeelvrAn",
+          "imageReferenceUrl": "628749ac-295c-42cb-803a-516ea590e7c4",
+          "imageToCompare": "b88215b1-c72f-421c-9786-549e9b5268ac"
+        },
+        {
+          "subStepType": "type 6",
+          "timestamp": "2017-01-09T08:47:51.136+01:00",
+          "subStepResult": "SYqOBgdDoAHRRCGyeDhUXLmwoxhnOR",
+          "imageReferenceUrl": "05814020-04b8-48dc-8595-fc44340cd517",
+          "imageToCompare": "c75ccaff-a5cb-4e83-9329-5f0fcd19a581"
+        },
+        {
+          "subStepType": "type 3",
+          "timestamp": "2017-01-04T09:59:49.208+01:00",
+          "subStepResult": "PjUHnOVlFospwKndycrBwradNZbzVQ",
+          "imageReferenceUrl": "fe59bd44-ff47-4cca-8efb-d11bb02acb16",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 7",
+          "timestamp": "2017-01-09T15:43:03.318+01:00",
+          "subStepResult": "SrOjAntTfUyDCWgpdJkKvyoArfGlJm",
+          "imageReferenceUrl": "32daebfb-dcc1-41b6-993c-41ce2340df75",
+          "imageToCompare": "ff1c41e4-b12f-4993-820b-3a93054acb11"
+        },
+        {
+          "subStepType": "type 11",
+          "timestamp": "2017-01-11T11:40:57.583+01:00",
+          "subStepResult": "wmcEBLtfUquuFMluMHEmqaDWhzqGvo",
+          "imageReferenceUrl": "e0523676-d6c9-4c04-915b-743ff8748b04",
+          "imageToCompare": "e4ed888c-25d7-4cd7-bad0-24afb79acc17"
+        },
+        {
+          "subStepType": "type 10",
+          "timestamp": "2017-01-12T18:16:56.652+01:00",
+          "subStepResult": "hkVGqaeiUsmCxlqyTyDpMDRGcsGLfs",
+          "imageReferenceUrl": "c5f70b5c-6987-47c1-8cfe-a6dfdcc83f3e",
+          "imageToCompare": "no image to compare"
+        }
+      ]
+    },
+    {
+      "stepName": "pZVUGNZuUstRYcNigXUuXKCelBAeiFdhrygYXBrMQnDhdgDVfskDcZWDVJNS",
+      "stepType": "Step type  3",
+      "timestampStart": "2017-01-14T06:11:55.750+01:00",
+      "timestampEnd": "2017-01-29T19:01:28.603+01:00",
+      "stepResult": "",
+      "subSteps": [
+        {
+          "subStepType": "type 9",
+          "timestamp": "2017-01-16T22:49:07.283+01:00",
+          "subStepResult": "UjRlJFxuauSAqfGRBICPXAqqoOHeuw",
+          "imageReferenceUrl": "ccc0683c-5d68-4602-9c33-b973d2bff020",
+          "imageToCompare": "41931f58-4bb7-493b-8660-1f925af63dca"
+        },
+        {
+          "subStepType": "type 3",
+          "timestamp": "2017-01-20T08:39:39.307+01:00",
+          "subStepResult": "ZqcVTLfTkQevTqUOnpSveiHjzXpXaP",
+          "imageReferenceUrl": "f88a331a-3cab-4871-ad3a-07f784621dca",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 4",
+          "timestamp": "2017-01-16T21:32:44.322+01:00",
+          "subStepResult": "xEBkCAcRwbJlZmhazOgyKvGxRnppAq",
+          "imageReferenceUrl": "5d5ef088-9d00-4ca8-a34f-fed7238e8eb3",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 3",
+          "timestamp": "2017-01-30T05:57:28.762+01:00",
+          "subStepResult": "kYaANXxbrUzwgxcijFjyYNAISEXohY",
+          "imageReferenceUrl": "ee05f76e-ca82-449c-a913-460024f4012c",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 9",
+          "timestamp": "2017-01-19T14:52:13.543+01:00",
+          "subStepResult": "GJTPkWNMMrnEQqjLRqdLPrCKcAFFiX",
+          "imageReferenceUrl": "8110cbbb-2843-4722-9458-bba3e05d0175",
+          "imageToCompare": "no image to compare"
+        }
+      ]
+    },
+    {
+      "stepName": "TDQXkWsgtARUvgBfGYPyOjVAYoXGVDSfdVYuXYFGrrhxWJJdPwDeXfcDRSKx",
+      "stepType": "Step type  4",
+      "timestampStart": "2017-01-20T13:03:26.733+01:00",
+      "timestampEnd": "2017-02-01T02:18:48.784+01:00",
+      "stepResult": "MyJhFBiYxJklQnjEGYbGieTUQzZVTi",
+      "subSteps": [
+        {
+          "subStepType": "type 10",
+          "timestamp": "2017-01-14T10:09:05.360+01:00",
+          "subStepResult": "aoFGTWaSzlgpYFxUQqRaHFmVseQPAv",
+          "imageReferenceUrl": "ebc3d257-dfa4-41de-84d8-557b473db118",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 5",
+          "timestamp": "2017-01-05T06:02:35.154+01:00",
+          "subStepResult": "SNwPTbZCaizCBMbsatRoAZLewooGJb",
+          "imageReferenceUrl": "90875799-ce29-43c3-92f1-380a6dc2c5aa",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 6",
+          "timestamp": "2017-01-22T15:00:32.666+01:00",
+          "subStepResult": "iVHcZXjreJRGANOiphHoybMRFcQiZe",
+          "imageReferenceUrl": "811c706d-df9f-49a8-95d0-2d822b5bf530",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 5",
+          "timestamp": "2017-01-01T18:17:15.797+01:00",
+          "subStepResult": "VlNiXViMTyTWvEKsmdapVmiwogvOuz",
+          "imageReferenceUrl": "9feaadbd-2589-4094-9627-43ff8f534bc8",
+          "imageToCompare": "22f09b9c-b456-4484-b912-fae53474fee5"
+        },
+        {
+          "subStepType": "type 8",
+          "timestamp": "2017-01-06T12:55:04.496+01:00",
+          "subStepResult": "ucCmNbOfcSmjNwHkEgBqEtxfoYhQoC",
+          "imageReferenceUrl": "d0a40b29-679e-43fc-8fea-ae85f531f097",
+          "imageToCompare": "7dc3faea-4a4a-4b45-a0e5-a69861cec92d"
+        },
+        {
+          "subStepType": "type 4",
+          "timestamp": "2017-01-02T12:03:32.556+01:00",
+          "subStepResult": "wmTaZyknxQphQajvWFvCnFftPEeitJ",
+          "imageReferenceUrl": "bff5d78d-3d5a-49f3-92d3-88de69378d85",
+          "imageToCompare": "no image to compare"
+        },
+        {
+          "subStepType": "type 6",
+          "timestamp": "2017-01-16T11:19:01.494+01:00",
+          "subStepResult": "KTefwaJiRgXKYHDQJLUDBvlpqUfPzY",
+          "imageReferenceUrl": "3edd1e1f-1705-4fb6-98a2-d8fc76a7c54d",
+          "imageToCompare": "01b17e7b-c1db-4b49-a6cb-9e56e0a57075"
+        }
+      ]
+    },
+    {
+      "stepName": "HxhiiHrdsvhLeHoLyKUnmmBzfDGKaUkIASdcvjUzmFMqWkDPymUKwGmwoLTA",
+      "stepType": "Step type 1",
+      "timestampStart": "2017-01-28T17:22:26.695+01:00",
+      "timestampEnd": "2017-01-03T15:46:44.415+01:00",
+      "stepResult": "",
+      "subSteps": [
+        {
+          "subStepType": "type 1",
+          "timestamp": "2017-01-03T09:34:21.586+01:00",
+          "subStepResult": "FWaLPAmHcigQCNRTrmnauoGHQqGbCP",
+          "imageReferenceUrl": "6bd08c63-3d09-4ecf-a0a9-932b435c18b7",
+          "imageToCompare": "cd6e13e2-3aab-4f9a-bce6-3d5b5f0f5b52"
+        },
+        {
+          "subStepType": "type 4",
+          "timestamp": "2017-01-17T00:17:38.849+01:00",
+          "subStepResult": "EFPdmEVptitVClaFXsceYrbNhNrOhr",
+          "imageReferenceUrl": "1eb4d7fd-67ab-4b75-af35-3ed6838b0e2a",
+          "imageToCompare": "40f5f25c-d7fe-4691-881d-6c8bbeff9d34"
+        },
+        {
+          "subStepType": "type 8",
+          "timestamp": "2017-01-27T21:53:36.383+01:00",
+          "subStepResult": "NaccHWViKTgqOTfNSZWvzqpQazbUci",
+          "imageReferenceUrl": "90e1715b-7f43-4e98-9b20-c66ea102f965",
+          "imageToCompare": "no image to compare"
+        }
+      ]
+    }
+  ]
+}
