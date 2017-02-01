@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import pl.eka.models.fake.Report;
 import pl.eka.models.fake.ReportResult;
 import pl.eka.models.fake.ReportSummary;
 
@@ -38,9 +39,9 @@ public class FakeController {
 
     }
 
-    @RequestMapping(value = "/reportList", method = RequestMethod.GET)
+    @RequestMapping(value = "/reportListSummary", method = RequestMethod.GET)
     @ResponseBody
-    public ResponseEntity reportList() {
+    public ResponseEntity reportListSummary() {
 
         List<ReportSummary> summaryList = new ArrayList<>();
 
@@ -50,5 +51,19 @@ public class FakeController {
 
         return new ResponseEntity<>(summaryList, HttpStatus.OK);
     }
+
+    @RequestMapping(value = "/reportList", method = RequestMethod.GET)
+    @ResponseBody
+    public ResponseEntity reportList() {
+
+        List<Report> reportList = new ArrayList<>();
+
+        for (int i = 0; i < 100 ; i ++ ){
+            reportList.add(new Report());
+        }
+
+        return new ResponseEntity<>(reportList, HttpStatus.OK);
+    }
+
 
 }
