@@ -12,6 +12,12 @@ public class ReportSummary {
     private final String reportName;
     private final String property1;
 
+    private final String verdict;
+
+    public String getVerdict() {
+        return verdict;
+    }
+
     public String getReportName() {
         return reportName;
     }
@@ -48,5 +54,6 @@ public class ReportSummary {
         this.timestampStart = new DateTime(MyRandom.randomLongForDate()).toDateTimeISO().toString();
         this.timestampEnd = new DateTime(MyRandom.randomLongForDate()).toDateTimeISO().toString();
         this.reportId = UUID.randomUUID().toString();
+        this.verdict = String.valueOf(MyRandom.randomBol());
     }
 }
