@@ -19,6 +19,10 @@ public class MyRandom {
         return (Math.random() < 0.5);
     }
 
+    static boolean randomBol(double bla ){
+        return (Math.random() < bla);
+    }
+
     static long randomLongForDate(){
 
         return ThreadLocalRandom.current().nextLong(1483258567000L,1485936967000L);

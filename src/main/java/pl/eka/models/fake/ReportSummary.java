@@ -54,6 +54,6 @@ public class ReportSummary {
         this.timestampStart = new DateTime(MyRandom.randomLongForDate()).toDateTimeISO().toString();
         this.timestampEnd = new DateTime(MyRandom.randomLongForDate()).toDateTimeISO().toString();
         this.reportId = UUID.randomUUID().toString();
-        this.verdict = String.valueOf(MyRandom.randomBol());
+        this.verdict = String.valueOf(MyRandom.randomBol(0.9));
     }
 }
