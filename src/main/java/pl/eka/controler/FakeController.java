@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import pl.eka.models.fake.Report;
 import pl.eka.models.fake.ReportResult;
 import pl.eka.models.fake.ReportSummary;
+import pl.eka.models.images.ImageRequestGenerator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -65,5 +66,11 @@ public class FakeController {
         return new ResponseEntity<>(reportList, HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/image/{imageId}", method = RequestMethod.GET)
+    @ResponseBody
+    public ResponseEntity sentImage(@PathVariable(value="imageId") String runID) {
+
+        return new ResponseEntity<>(ImageRequestGenerator.generate(), HttpStatus.OK);
+    }
 
 }
