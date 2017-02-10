@@ -2,6 +2,7 @@ package pl.eka.controler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -21,12 +22,14 @@ import java.util.UUID;
 @RestController
 public class FakeController {
 
+    @CrossOrigin
     @RequestMapping(value = "/report", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity report() {
         return new ResponseEntity<>(new ReportResult(UUID.randomUUID().toString()), HttpStatus.OK);
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/report/{runID}", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity testRunByID(@PathVariable(value="runID") String runID) {
@@ -40,6 +43,7 @@ public class FakeController {
 
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/reportListSummary", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity reportListSummary() {
@@ -53,6 +57,7 @@ public class FakeController {
         return new ResponseEntity<>(summaryList, HttpStatus.OK);
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/reportList", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity reportList() {
@@ -66,6 +71,7 @@ public class FakeController {
         return new ResponseEntity<>(reportList, HttpStatus.OK);
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/image/{imageId}", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity sentImage(@PathVariable(value="imageId") String runID) {
